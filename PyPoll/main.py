@@ -71,7 +71,7 @@ type(candidates), type(num_votes),type(vote_counts),type(percentages),type(max_v
 
 #create and open txt file
 with open('readme.txt','w') as f:
-    f.write('readme')
+    #f.write('readme')
 
 #print final analysis to file
     f.write("Election Results\n")
